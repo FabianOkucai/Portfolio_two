@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabian Okucai - Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1>Fabian Okucai</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h2>Flutter Developer | Kotlin Developer| Python Enthusiast</h2>
+            <p>I'm Fabian Okucai, a passionate developer skilled in mobile and web app development. I specialize in creating seamless, user-centric applications using modern tools like Flutter, Kotlin, and Python.</p>
+            <a href="#contact" class="cta-btn">Let's Work Together</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a developer focused on delivering impactful, user-friendly applications. With experience in mobile and web development, I have built apps that enhance user experiences and solve real-world problems. My expertise in Flutter, Kotlin, and
+                Python allows me to tackle diverse challenges, from ticket booking systems to educational tools.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Highlighted Projects</h2>
+            <div class="filter-buttons">
+                <button onclick="filterProjects('all')">All</button>
+                <button onclick="filterProjects('flutter')">Flutter</button>
+                <button onclick="filterProjects('python')">Python</button>
+            </div>
+            <div class="project-grid">
+                <div class="project-card flutter">
+                    <h3>Tika</h3>
+                    <p>A ticket booking and management app built using Flutter and Dart, improving the efficiency of the booking process.</p>
+                </div>
+                <div class="project-card kotlin">
+                    <h3>DailyRev</h3>
+                    <p>A Kotlin-based app for storing and sharing amazing facts. This app demonstrates the integration of learning with technology.</p>
+                </div>
+                <div class="project-card python">
+                    <h3>Shopping List Generator</h3>
+                    <p>A Python tool that automatically generates shopping lists based on user inputs, streamlining shopping tasks.</p>
+                </div>
+                <div class="project-card python">
+                    <h3>Mini Games</h3>
+                    <p>A series of Python-based mini-games developed for entertainment and to enhance problem-solving skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Flutter & Dart</div>
+                <div class="skill-card">Kotlin & Android</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Firebase</div>
+                <div class="skill-card">MySQL</div>
+                <div class="skill-card">HTML/CSS/JavaScript</div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work together or learn more about my projects, feel free to reach out!</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:okucaifabian@gmail.com">okucaifabian@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+254741901637">+254741901637</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/FabianOkucai" target="_blank">FabianOkucai</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fabian Okucai. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS for smooth scrolling and project filtering -->
+    <script src="script.js"></script>
+</body>
+
+</html>
